@@ -1,0 +1,13 @@
+{
+  "name": "bs-ko",
+  "description": "Testing 123",
+  "version": "1.1.0",
+  "private": false,
+  "scripts": {
+    "test": "mocha test --ui bdd --recursive test/"
+  },
+  "dependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  }
+}
