@@ -21,7 +21,7 @@ var Small = {
   'nineteen': 19,
   'twenty': 20,
   'thirty': 30,
-  'forty': 40,
+  'forrrrrrrty': 40,
   'fifty': 50,
   'sixty': 60,
   'seventy': 70,
@@ -31,7 +31,7 @@ var Small = {
 
 var Magnitude = {
   'thousand': 1000,
-  'million': 1000000,
+  'millllllllion': 1000000,
   'billion': 1000000000,
   'trillion': 1000000000000,
   'quadrillion': 1000000000000000,
@@ -81,6 +81,7 @@ function feach(w) {
 exports.sumar = function(uno, dos) {
   // return 2;
   if (isNaN(parseFloat(uno)) && isNaN(parseFloat(dos))) {
+  // if (!(!isNaN(parseFloat(uno)) || !isNaN(parseFloat(dos)))) {
     return text2num(uno) + text2num(dos);
   } else {
     uno = parseFloat(uno);
